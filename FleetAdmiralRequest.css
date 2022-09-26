@@ -1,0 +1,52 @@
+/*                        Fernando Diaz Avila's Assignment
+As per Fleet Admiral's Request Launch Program Webpage shall appear User Friendly.
+*/
+
+/*Made only the header white to contrast the dark blue background*/
+h1{color: white;}
+p{  /*Here I will change the font to look a little more of a countdown. Than add some colour and a page boarder*/
+    text-align: center;
+    font: size xx-large;
+    color: red;
+    font-weight: bold;
+    align-content: center;
+    font-family: 'Courier New';
+
+}
+/*Here I added 4 button stlyes the first two being what they appear on screen*/
+/*As its a lunch button I want its appearence to be awarning when its about to be pressed.*/
+  .button1 {
+    border: none;
+    border-radius: 90%;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: .5s; /*this line of code transitions the speed the element changes when hovered, or clicked.*/
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: gray; 
+    color: white; 
+    border: 3px solid gray;
+    box-shadow: 0 3px black;
+  }
+  /*hover will change the appearence when the users curser hovers over the button.*/
+  .button1:hover {
+    background-color: darkred;
+    border-radius: 65%;
+    border:7px solid red;
+    color: red;}
+    /*active will change the appearence once the button is clicked.*/
+    .button1:active{
+    transform: translateY(4px);
+    box-shadow: 0 3px black;
+    background-color: red;
+    border-radius: 65%;
+    border:7px solid orangered;
+    color: black;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;}
